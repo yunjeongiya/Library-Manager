@@ -15,7 +15,7 @@ public class Users {
         //관리자 계정 정보
         this.manager = manager;
         User admin = new User.UserBuilder().admin().birth("0000-00-00").id("Admin")
-                .phone("000-0000-0000").pw("2019203006").name("관리자").build();
+                .phone("000-0000-0000").pw("202010655").name("관리자").build();
         userList.add(admin);
     }
 
